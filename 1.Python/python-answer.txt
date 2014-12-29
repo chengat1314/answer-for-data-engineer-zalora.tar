@@ -1,0 +1,198 @@
+=============================================================================
+1. Python / Haskell / Perl / Your prefered scripting language.
+a) array = [['a','b','c'],['d','e','f']]
+How do I get this output?
+a
+b
+c
+d
+e
+f
+##############answer with python ###########
+>>> for list in array: 
+...     for i in list:
+...             print i
+
+------------------------------------------------------------------------
+b) Have a look at "programming-tasks/top10_sample.csv"
+Each line in this file represents a list of Brand in our store.
+Write a script to print out a list of brand names and their occurrence counts (sorted).
+
+Answer: analyse.py   change right path for the file: file = '/home/magentodev/top10_sample.csv' # file path
+
+Result :
+Nike 676
+RIVER ISLAND 495
+Tomaz 367
+Rocklander 279
+Playboy 208
+Weide 191
+Macbeth 190
+Something Borrowed 172
+Puma 163
+Red Virus 158
+Swiss Polo 132
+RAV Design 124
+R20 103
+Sephora 97
+Totomomo 96
+Neverland 96
+VINCCI 88
+urban TEE 80
+New Balance 79
+Velvet 78
+Titan 74
+Swiss Military Hanowa 64
+Nukleus 62
+Timberland 60
+Power 58
+Summit Signature 56
+Q&Q by Citizen 55
+Reebok 55
+Pestle & Mortar 47
+XIXILI 46
+Voze 45
+Sidewalk 43
+SCORPION 40
+Macerio 40
+Steeple Jack 38
+Radioactive 37
+Polo 36
+Rizalman for Zalora 34
+People's 32
+Volkswagen 32
+North Star 32
+SK-II 30
+Torendi 29
+Quarter Homme 28
+nichii 28
+Unisa 27
+Thrasher 26
+VANS 24
+Zariya 22
+Stussy 22
+MiL 22
+New Era 21
+Private Stitch 21
+Weinbrenner 20
+VERCATO 20
+The Simpsons @ urban TEE 19
+Nose 19
+Sammoni 17
+Manchester United 16
+Wisedragon 16
+Nine West Exclusive 15
+Rayhanah 15
+Melissa 15
+Swarovski Elements for ZALORA 14
+Varsity 13
+PLAYBOY BUNNY 13
+Rider 12
+Tropicana Life 12
+Swatch 12
+Pratik 11
+Tombelli 10
+Sapil 10
+Summit 10
+Safety Jogger 10
+Selected 9
+Newmen 9
+kitschen 9
+Monkee Genes 9
+Palio 9
+Threadless 8
+colours 8
+Syaiful Baharim for Zalora 8
+Vessini 8
+UDV 8
+Zoo York 8
+New Look 8
+Texan 7
+Omax 7
+Passion 7
+Olay 7
+Wild Channel @ Tropicana Life 7
+ZIZTAR 7
+Zang Toi 7
+Santa Barbara Polo & Racquet Club 6
+eslystyle.com 6
+Superga 6
+Sze Accessories 6
+Ripples 5
+Supreme @ Unity Store KL 5
+ZALORA 5
+MazBrasil 5
+SPURR 5
+T-Level 5
+Steve Madden Exclusive 5
+SENTINI 5
+Zuco Fashion 4
+Skiva 4
+Wenger 4
+TWENTY2ND 4
+Tagg 4
+St Bernard 4
+Nine West 4
+Te Chi-Chi 4
+Starfox 3
+Swiss Army 3
+ONLY 3
+Masked Rider @ urban TEE 3
+TimBuk2 3
+Sector 3
+Ted Baker 3
+SEIKO 3
+VISS 3
+POTS-1 Contemporary 2
+Mariah Carey 2
+R+ by Radioactive 2
+VnJ 2
+XOXO 2
+Vintage1988 2
+OPI 2
+Micffy 2
+Me&City 2
+Subcrew @ Unity Store KL 2
+Schuhster 2
+Police 2
+Vero Moda 2
+Medium Rare Store 2
+NCLA 2
+Staple @ Unity Store KL 1
+Test 1
+Moonriver 1
+Marie Claire 1
+Smashing Scarves by Lea Shmea 1
+SPARROW GREEN 1
+Royal Crown 1
+POTS-1 Modern Lifestyle 1
+VABENE Italy 1
+POSSE 1
+Voluspa 1
+Yadah 1
+Vsoft Comfort 1
+Valentino Rudy 1
+Yarmilla 1
+Stonewood 1
+Pretty Little Things 1
+Sorella 1
+Murad 1
+Stage 1
+Vivienne Westwood 1
+Rodial 1
+Nioxin 1
+ORIENT 1
+dressingpaula 1
+Mickey 1
+Payot 1
+SHOWROOM 1
+Princess 1
+St Dupont 1
+Redergen 1
+Phyto 1
+TIMEX 1
+Mediental 1
+Steve Madden 1
+Parfois 1
+Schwarzkopf Professional 1
+  
