@@ -11,3 +11,4 @@ the three folders contained the solutions and codes for each question.
 2.SQL for question 2 SQL
 
 3.Bash for question 3 Bash scripting
+  cron job configuration: crontab -i  add 35 2 * * * sh /home/magentodev/crontab_job.sh
