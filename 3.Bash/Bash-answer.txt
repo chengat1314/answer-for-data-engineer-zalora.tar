@@ -10,6 +10,10 @@ a) Write a bash script for the below set of tasks:
 ]
 How would you schedule the above as a cron job every day at 2.35am?
 
+cron job configuration:
+crontab -i
+35 2 * * * sh /home/magentodev/crontab_job.sh
+
 b) Have a look at the folder "/programming-tasks/bash/"
 - Write a bash script to rename all files below from "zalora-*" to "Zalora-*"
 - All Zalora-* files contain a single string: "this is a test." (with a new line at the end):
@@ -21,5 +25,4 @@ zalora-1.txt            zalora-2.txt            zalora-3.txt            zalora-4
 
 $ <insert bash scripts>
 
-$ ls
-Zalora-1.txt            Zalora-2.txt            Zalora-3.txt            Zalora-4.txt            Zalora-5-extra.txt      Zalora-6.txt            other-zalora-file-1.txt other-zalora-file-2.txt
+

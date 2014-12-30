@@ -1,0 +1,7 @@
+ftp -in 172.18.10.35 << SCRIPTEND
+user ftp ftp@172.18.10.35
+binary
+cd /data/bash/
+mget *other*
+SCRIPTEND
+

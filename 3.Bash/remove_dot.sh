@@ -16,7 +16,7 @@ for file in "${array[@]}";
 	do 
 		#echo $file
 		fileName=$path/$file
-		sed 's/\.//' $fileName > tmp.txt  # remove dot character save the content first
+		sed 's/\.//' $fileName |sed 's/[a-z]/\U&/g' > tmp.txt  # remove dot character save the content first
 		mv tmp.txt ${fileName} #rename file
 	done
 
